@@ -15,7 +15,7 @@ API REST para gerenciamento de produtos (CRUD), desenvolvida com Node.js, Expres
 
 ```bash
 git clone https://github.com/CodIguinhoDev/product-management-api
-entre no repositório: cd products-crud-api
+entre no repositório cd product-management-api
 ```
 
 ---
