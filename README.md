@@ -30,17 +30,33 @@ npm install
 
 ## 3. Configure o banco de dados
 
-Execute o arquivo `database/schema.sql` no MySQL para criar a tabela products.
+Você pode criar o banco de dados utilizando o **MySQL Workbench** ou o **terminal**.
 
-Exemplo:
+### Opção 1 - MySQL Workbench
+
+1. Abra o **MySQL Workbench**.
+2. Clique em **File → Open SQL Script**.
+3. Abra o arquivo `database/schema.sql`.
+4. Clique no botão do raio
+
+Esse script irá:
+
+- Criar o banco de dados `products_db`;
+- Criar a tabela `products`;
+- Inserir um produto de exemplo.
+
+### Opção 2 - Terminal
+
+Execute o arquivo `database/schema.sql`:
 
 ```bash
 mysql -u seu_usuario -p < database/schema.sql
 ```
 
-Se preferir usar outro nome de banco, ajuste o CREATE DATABASE/USE no script e a variável DATABASE no .env para que fiquem iguais.
+Após informar sua senha, o script será executado e criará o banco de dados, a tabela `products` e um produto de exemplo.
 
----
+> **Observação:** Se preferir utilizar outro nome para o banco de dados, altere o `CREATE DATABASE` e o `USE` presentes no `schema.sql` e também a variável `DATABASE` do arquivo `.env`.
+
 
 ## 4. Configure as variáveis de ambiente
 
