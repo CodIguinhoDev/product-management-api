@@ -78,7 +78,7 @@ URL_FRONT=http://localhost:5173
 ## 5. Execute o projeto
 
 ```bash
-npm run dev
+npm start
 ```
 
 O servidor será iniciado em:
