@@ -83,8 +83,6 @@ http://localhost:3000/api-docs
 
 A documentação foi gerada utilizando Swagger, permitindo visualizar e testar todos os endpoints diretamente pelo navegador.
 
-<img width="1342" height="613" alt="Image" src="https://github.com/user-attachments/assets/914f4645-97e9-480a-99ba-f7db7c476edf" />
-
 ![Swagger](https://github.com/user-attachments/assets/914f4645-97e9-480a-99ba-f7db7c476edf)
 
 ---
